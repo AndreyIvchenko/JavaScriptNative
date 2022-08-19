@@ -4,3 +4,13 @@
  *
  * 2. Используйте стрелочную функцию
  */
+
+
+//option 1
+const hiWorld = () => console.log('Hello other world!');
+
+setTimeout(hiWorld,5000);
+
+//option 2
+
+setTimeout(()=>console.log('Hello world!'),3000)

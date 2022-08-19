@@ -12,3 +12,16 @@
  *
  * 5. Выведите в консоль значение второй переменной
  */
+
+
+const text = 'Andrei likes to coock'
+
+const instExam = text instanceof String;
+
+console.log(instExam)
+
+console.log(typeof text)
+
+const textUp = text.toUpperCase();
+
+console.log(textUp)

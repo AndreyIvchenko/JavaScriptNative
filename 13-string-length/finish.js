@@ -4,3 +4,13 @@
  *
  * 2. Виведите в консоль длину этой строки
  */
+
+//option 1
+const nameUser = 'My name is Andrei';
+
+console.log(nameUser.length);
+
+//option 2
+const lengthString = nameUser.length;
+
+console.log(lengthString);

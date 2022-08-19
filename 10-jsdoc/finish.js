@@ -12,3 +12,18 @@
  *
  * 4. Вызовите функцию
  */
+
+
+/**
+ * "Return difference two numbers"
+ * @param {number} num1 
+ * @param {number} num2 
+ * @returns {number}  "Number difference"
+ */
+
+function diff(num1, num2) {
+    return num1 - num2;
+}
+
+
+console.log(diff(1,12))

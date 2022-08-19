@@ -10,3 +10,16 @@
  *
  * 5. Перепишите функцию так, чтобы результат возвращался неявно
  */
+
+// explicit return
+const returnString  = () => {
+    return 'Hello world'
+}
+
+console.log(returnString());
+
+
+// implicit return
+const returnStringTwo = () => 'Hello world JS';
+
+console.log(returnStringTwo());
