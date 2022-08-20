@@ -6,3 +6,9 @@
  *
  * 3. Выведите в консоль длину массива
  */
+
+const myArray = [24000, 'for hand', {}]
+
+console.log(myArray[0]);
+
+console.log(myArray.length)

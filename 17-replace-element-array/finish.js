@@ -8,3 +8,15 @@
  *
  * 4. Выведите в консоль измененный массив
  */
+const myArray = [1,'two', 3];
+
+console.log(myArray);
+
+myArray[1] = '2';
+
+console.log(myArray);
+
+// method splice
+myArray.splice(1,1,2);
+
+console.log(myArray);

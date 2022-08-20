@@ -14,3 +14,18 @@ setTimeout(hiWorld,5000);
 //option 2
 
 setTimeout(()=>console.log('Hello world!'),3000)
+
+
+// function with implicit return 
+const newPost = (post, addedAt = Date()) => ({
+    ...post,
+    addedAt,
+})
+
+const firstPost = {
+    id:1,
+    author: 'Andrei',
+    post: 'Oh all cool'
+}
+
+newPost(firstPost)

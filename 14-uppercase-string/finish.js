@@ -14,14 +14,25 @@
  */
 
 
-const text = 'Andrei likes to coock'
+const text = 'Andrei likes to coock';
 
 const instExam = text instanceof String;
 
-console.log(instExam)
+console.log(instExam);
 
-console.log(typeof text)
+console.log(typeof text);
 
 const textUp = text.toUpperCase();
 
-console.log(textUp)
+console.log(textUp);
+
+//additional task "Сreating a string instance"
+
+const myString = new String('Andrei');
+
+console.log(myString instanceof String);
+
+console.log(typeof myString);
+
+console.log(myString.toLowerCase())
+
