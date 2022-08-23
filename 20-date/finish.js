@@ -4,3 +4,12 @@
  *
  * 2. Выведите значение в консоль
  */
+
+ let now = new Date()
+ console.log(now);
+
+let timeFullYear = now.getFullYear();
+console.log(timeFullYear);
+
+let timeMilliseconds = now.getTime();
+console.log(timeMilliseconds);

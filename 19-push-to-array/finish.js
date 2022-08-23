@@ -6,3 +6,14 @@
  *
  * 3. Выведите в консоль длину результирующего массива
  */
+
+const myFamily = ['Andrei', 'Anna'];
+
+myFamily.push('Uliana','Ostap');
+
+myFamily.push('Tima','Nusha');
+
+console.log(myFamily);
+
+console.log(myFamily.length);
+
