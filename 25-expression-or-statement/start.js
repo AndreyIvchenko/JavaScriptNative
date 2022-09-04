@@ -26,3 +26,5 @@ console.log(newVariable)
 if (newVariable > 10) {
   console.log(`${newVariable} больше 10`)
 }
+
+
